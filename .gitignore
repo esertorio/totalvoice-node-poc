@@ -1,0 +1,5 @@
+node_modules
+.env
+dadosTeste.js
+totalvoice-sms-post-curl-1.bat
+totalvoice-sms-post-curl-2.bat

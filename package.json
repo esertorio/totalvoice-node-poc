@@ -1,0 +1,20 @@
+{
+  "name": "totalvoice-node-poc",
+  "version": "1.0.0",
+  "description": "poc of totalvoice-node 20200413",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "totalvoice-node",
+    "sms"
+  ],
+  "author": "duda.sertorio@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "request": "^2.88.2",
+    "totalvoice-node": "^1.10.0"
+  }
+}

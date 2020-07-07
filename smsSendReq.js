@@ -1,10 +1,12 @@
+const env = require('dotenv/config'); //202007062246
 const dadosTeste = require('./dadosTeste');
 const totalvoice = require("totalvoice-node");
 const client = new totalvoice(process.env.SMS_ACCESS_TOKEN); //202004131752
 
-var numero_destino = dadosTeste.teste3.numero_destino;
-var mensagem = dadosTeste.teste3.mensagem;
-var resposta_usuario_bool = dadosTeste.teste3.resposta_usuario_bool;
+var test = dadosTeste.teste4; //202007062246
+var numero_destino = test.numero_destino;
+var mensagem = test.mensagem;
+var resposta_usuario_bool = test.resposta_usuario_bool;
 
 //  /**
 //    * Envia um sms para um número destino

@@ -1,5 +1,5 @@
 const dadosTeste = require('./dadosTeste');
-
+const env =  require("dotenv/config"); //202007062246
 const totalvoice = require("totalvoice-node");
 var request = require("request");
 
